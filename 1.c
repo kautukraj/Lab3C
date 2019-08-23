@@ -14,7 +14,7 @@ int main()
     {
 
 
-        if (d<= (r1+r2))
+        if (d<= (r1+r2) && d>= abs(r1-r2))
             printf("YES\n");
         else
             printf("NO\n");
